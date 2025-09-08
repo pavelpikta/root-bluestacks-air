@@ -10,6 +10,7 @@
 - 5.21.715.7538
 - 5.21.720.7530
 - 5.21.730.7536
+- 5.21.735.7518
 
 ![Screenshot](/images/bluestacks-air-root-magisk.png)
 

@@ -37,7 +37,7 @@ done
 
 if [ -d "$BLUESTACKS" ]; then
   PLIST_FILE=$BLUESTACKS/Contents/Info.plist
-  BS_VERSION=$(defaults read $PLIST_FILE CFBundleShortVersionString 2>/dev/null)
+  BS_VERSION=$(defaults read $PLIST_FILE CFBundleVersion 2>/dev/null)
   echo "[*] Found BlueStacks Air version $BS_VERSION"
   echo ''
 else
